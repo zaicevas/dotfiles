@@ -1,0 +1,32 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "window.zoomLevel": 1,
+  "search.exclude": {
+    "**/dist": true
+  },
+  "latex-workshop.latex.autoBuild.interval": 4000,
+  "tlaplus.tlc.modelChecker.options": "-deadlock",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+  "workbench.editor.enablePreview": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
