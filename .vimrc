@@ -24,6 +24,5 @@ call plug#end()
 set mouse=n 
 set nowrap  
 
-" tab = 4 spaces
-set expandtab
-set tabstop=4
+" display tab as 4 spaces
+set ts=4 sw=4
