@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Tomas Zaicevas
+#	email = tomasz@vl-c02vn6e3htd6.lan.wixpress.com
+	name = Tomas Zaicevas
+	email = tozaicevas@gmail.com
+[alias]
+	add-commit = !git add -A && git commit -m

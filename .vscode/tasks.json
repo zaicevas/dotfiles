@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+    },
+    "tasks": [
+        {
+            "label": "Run current file tests",
+            "type": "shell",
+            "isBackground": true,
+            "command": "npx",
+            "args": [
+                "jest",
+                "--watch",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
