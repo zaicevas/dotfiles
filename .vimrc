@@ -26,3 +26,6 @@ set nowrap
 
 " display tab as 4 spaces
 set ts=4 sw=4
+
+" use 'man' with vim
+let $PAGER=''
