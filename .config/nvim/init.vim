@@ -23,6 +23,7 @@ call plug#begin()
 
 "Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'HerringtonDarkholme/yats.vim' " TS syntax
 
 " vim-plug end
 call plug#end()
@@ -36,5 +37,7 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " enable syntax highlighting on .tsx files
-autocmd BufNewFile,BufRead *.tsx, set filetype=typescript.tsx
+" autocmd BufNewFile,BufRead *.tsx, set filetype=typescript.tsx
 
+" Remap for rename current word
+nmap <F2> <Plug>(coc-rename)
