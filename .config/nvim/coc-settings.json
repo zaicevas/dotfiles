@@ -10,5 +10,11 @@
     "javascriptreact",
     "json",
     "typescript.tsx"
-  ]
+  ],
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100
 }
