@@ -4,5 +4,6 @@
 	email = tozaicevas@gmail.com
 [alias]
 	add-commit = !git add -A && git commit -m
+	add-commit-push = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 [pager]
 	branch = false
