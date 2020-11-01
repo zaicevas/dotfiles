@@ -1,0 +1,14 @@
+{
+  "eslint.filetypes": ["ts", "tsx", "js", "jsx"],
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "scss",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "json",
+    "typescript.tsx"
+  ]
+}
