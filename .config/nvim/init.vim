@@ -98,3 +98,6 @@ autocmd VimEnter * noremap <C-k> :bn<cr>
 autocmd VimEnter * noremap <C-j> :bp<cr>
 " close buffer
 autocmd VimEnter * noremap <C-q> :bd<bar>bn<CR>
+
+" shift+command+f to search across files
+map <S-D> :Rg<CR>
