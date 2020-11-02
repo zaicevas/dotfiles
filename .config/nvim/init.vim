@@ -38,6 +38,11 @@ Plug 'scrooloose/nerdcommenter' " cmd+/ to comment code
 Plug 'hankchiutw/nerdtree-ranger.vim'
 Plug 'christoomey/vim-tmux-navigator' " switching between NERDTree and 
 Plug 'pacha/vem-tabline'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " shift+command+f search
+Plug 'junegunn/fzf.vim' " shift+command+f search
+Plug 'vim-airline/vim-airline' " status bar
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive' " git branch at the status bar
 
 " vim-plug end
 call plug#end()
