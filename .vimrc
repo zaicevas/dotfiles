@@ -1,7 +1,6 @@
 " line number on the left
 set number
 set clipboard=unnamed
-set clipboard=unnamedplus
 
 " show $ at the end of line
 " set list
